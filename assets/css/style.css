@@ -1,0 +1,363 @@
+/*
+
+
+ * Template Name: Unify - Responsive Bootstrap Template
+
+
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+
+
+ * Version: 1.9.2
+
+
+ * Author: @htmlstream
+
+
+ * Website: http://htmlstream.com
+
+
+*/
+
+
+
+
+
+/*Import Global Compulsory CSS Files*/
+
+
+@import url(app.css);
+
+
+@import url(blocks.css);
+
+
+
+
+
+/*Import CSS Plugins*/
+
+
+@import url(plugins/style-switcher.css);
+
+
+
+
+
+* {
+
+
+	border-radius: 0;
+
+
+}
+
+
+
+
+
+body {
+
+
+ color: #333;
+
+
+ font-size: 13px;
+
+
+ line-height: 1.6;
+
+
+}
+
+
+
+
+
+.f18{font-size:18px;}
+
+
+
+
+
+body.header-fixed-space {
+
+
+  padding-top: 94px;
+
+
+}
+
+
+body.header-fixed-space-v2 {
+
+
+	padding-top: 135px;
+
+
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+
+	body.header-fixed-space,
+
+
+	body.header-fixed-space-v2 {
+
+
+		padding-top: 0;
+
+
+	}
+
+
+}
+
+
+
+
+
+p,
+
+
+li,
+
+
+li a,
+
+
+label {
+
+
+ color: #222;
+
+
+}
+
+
+
+
+
+a {
+
+
+ color: #f5821e;
+
+
+ text-decoration: none;
+
+
+}
+
+
+
+
+
+a,
+
+
+a:focus,
+
+
+a:hover,
+
+
+a:active,
+
+
+button,
+
+
+button:hover {
+
+
+	outline: 0 !important;
+
+
+}
+
+
+
+
+
+a:focus {
+
+
+text-decoration: none;
+
+
+}
+
+
+a:hover {
+
+
+ color: #f5821e;
+
+
+ text-decoration: underline;
+
+
+}
+
+
+
+
+
+/*Boxed Layout
+
+
+------------------------------------*/
+
+
+.wrapper {
+
+
+	background: #fff;
+
+
+}
+
+
+
+
+
+.boxed-layout {
+
+
+  padding: 0;
+
+
+  box-shadow: 0 0 5px #ccc;
+
+
+  margin-left: auto !important;
+
+
+  margin-right: auto !important;
+
+
+  background: url(../img/patterns/15.png) repeat;
+
+
+}
+
+
+
+
+
+/*Hiding arrows for select field in IE*/
+
+
+select::-ms-expand {
+
+
+  display: none;
+
+
+}
+
+
+body {
+
+
+	font-family: 'Roboto', sans-serif;
+
+
+    color: #111;
+
+
+    font-size: 14px;
+
+
+    line-height: 1.6;
+
+
+}
+
+
+h2.heading-md{
+
+
+	margin: 5px !important 
+
+
+}
+
+
+i.icon-custom{
+
+
+	margin-bottom: 0px;
+
+
+}
+
+
+
+
+
+.send_message{
+
+
+    background: #2e8997;
+
+
+    color: #fff;
+
+
+    padding: 8px 15px;
+
+
+    border-radius: 4px;
+
+
+    border: none;
+
+
+}
+
+
+h3.sponsor-title{padding:5px 10px; border-radius:5px;}
+
+
+h3.platinum{background:#e5e5e3;}
+
+
+h3.diamond{background:#bee6f6;}
+
+
+h3.gold{background:#d5b134;}
+
+
+h3.silver{background:#bfbebe;}
+
+
+h3.bronze{background:#cd7e31;}
+
+
+.sponsors-carousel img{width:200px;}
+
+.Down-Certi-Box{width:100%; background: #2e8997; border: solid 2px #000; color: #fff; padding: 20px; margin-bottom: 15px; float: left;}
+.Down-Certi-Box ul{padding: 10px 0px 0px 15px; margin: 0px; float: left;}
+.Down-Certi-Box ul li{color: #fff; float: left; font-size: 16px;}
+.Down-Certi-Box strong{font-size: 24px; font-weight: 800; color: #000; line-height: 24px;}
+.Down-Certi-Box a.btn-primary{background: #f5821e;  color: #fff; font-size: 20px; font-weight: 400; padding: 5px 30px; text-decoration: none; float: left; margin-top:10px;}
+.Down-Certi-Box a:hover.btn-primary{text-decoration: none;}
+.Down-Certi-Box a.btn-primary:active:focus,
+.Down-Certi-Box a.btn-primary:active:hover{
+    color: #000;
+    background-color: #fff;
+	border-color: #009846;
+}
+.blink_me {animation: blinker 1s linear infinite;}
+@keyframes blinker{
+  50% { background: #333; }
+}
+
+.cvip{width:100%; margin-bottom:15px; float:left;}
+.cvip a.btn-primary{background:#6e69ac; color: #fff; font-size: 20px; font-weight: 400; padding: 5px 0px; text-decoration: none; margin-top:0px; width:100%; text-align:center; display:block;}
